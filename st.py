@@ -475,7 +475,7 @@ elif menu == "📂Data Sets":
     st.title("📂 Dataset Selection")
     
 #     # Do alag files choose karne ke liye selectbox
-    file_choice = st.sidebar.selectbox("Select File", ["amazon (3).csv", "Amazon_c.csv"])
+    file_choice = st.sidebar.selectbox("Select File", ["Amazon (3).csv", "Amazon_c.csv"])
         
     try:
         if file_choice == "amazon (3).csv":
